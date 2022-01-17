@@ -82,12 +82,10 @@ span {
     border-radius: 2rem;
     border: 1px solid var(--cor-azul-claro);
     cursor: pointer;
-    color: var(--cor-azul-claro);
 }
 
 .conteudo-input:focus-visible {
     outline: 0.1rem solid var(--cor-azul-claro);
-    color: var(--cor-azul-claro);
 }
 
 input[type="email"]::placeholder {

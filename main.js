@@ -7,13 +7,18 @@ const msgEmail = document.querySelector(".conteudo-input");
 
 
 
+
 button.addEventListener("click", (ev) => {
 
     const msgPlace = document.querySelector(".conteudo-input").placeholder = "exemplo@email.com";
+    form.submit();
+
     if (input.value === '') {
         msgErro.style.display = 'flex';
         form.style.border = '0.8px solid red';
+
     }
+
 
 })
 msgEmail.addEventListener("focus", (ev) => {
