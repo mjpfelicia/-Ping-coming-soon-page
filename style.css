@@ -35,7 +35,7 @@ img {
 
 .box_geral {
     max-width: 640px;
-    margin: 5.375rem 1.125rem 5rem;
+    margin: 3.5rem 1.125rem 5rem;
     text-align: center;
 }
 
@@ -94,8 +94,8 @@ input[type="email"]::placeholder {
 }
 
 form {
+    max-width: 100%;
     border-radius: 27px;
-    border: 1px solid var(--cor-azul-claro);
     margin: 0 auto;
 }
 
@@ -204,7 +204,7 @@ form {
 @media (min-width: 1000px) {
     .box_geral {
         max-width: 640px;
-        margin: 5.375em 1.125em 5em;
+        margin: 3.375em 1.125em 3em;
         text-align: center;
     }
     header img {
