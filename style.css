@@ -123,10 +123,13 @@ form {
 }
 
 .conteudo_icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 11px;
     width: 100%;
     padding-bottom: 2rem;
     margin-top: 4rem;
-    text-align: center;
     cursor: pointer;
 }
 
@@ -134,14 +137,12 @@ form {
     border-radius: 50%;
     border: 0.1px solid var(--cor-azul-claro);
     width: 2rem;
-    height: 2rem;
     font-size: .9rem;
-    line-height: 2;
 }
 
 .fa-facebook-f:before {
     color: var(--cor-azul);
-    line-height: 2;
+    line-height: 2.5;
 }
 
 .fa-facebook-f:hover::before {
@@ -156,14 +157,12 @@ form {
     border-radius: 50%;
     border: 0.1px solid var(--cor-azul-claro);
     width: 2rem;
-    height: 2rem;
     font-size: .9rem;
-    line-height: 2;
 }
 
 .fa-twitter:before {
     color: var(--cor-azul);
-    line-height: 2;
+    line-height: 2.5;
 }
 
 .fa-twitter:hover:before {
@@ -178,14 +177,12 @@ form {
     border-radius: 50%;
     border: 0.1px solid var(--cor-azul-claro);
     width: 2rem;
-    height: 2rem;
     font-size: .9rem;
-    line-height: 2;
 }
 
 .fa-instagram:before {
     color: var(--cor-azul);
-    line-height: 2;
+    line-height: 2.5;
 }
 
 .fa-instagram:hover {
